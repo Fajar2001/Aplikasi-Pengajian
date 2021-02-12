@@ -52,7 +52,7 @@ class _IkrimsaViewState extends State<IkrimsaView> {
   Widget build(BuildContext context) {
     return Flexible(
       child: GridView.count(
-          childAspectRatio: 1.0,
+          childAspectRatio: 1.80,
           padding: EdgeInsets.only(left: 16, right: 16),
           crossAxisCount: 2,
           crossAxisSpacing: 18,
