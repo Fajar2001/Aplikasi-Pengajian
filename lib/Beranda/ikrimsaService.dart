@@ -53,7 +53,7 @@ class _IkrimsaViewState extends State<IkrimsaView> {
     return Flexible(
       child: GridView.count(
           childAspectRatio: 1.80,
-          padding: EdgeInsets.only(left: 16, right: 16),
+          padding: EdgeInsets.only(left: 16, right: 16,),
           crossAxisCount: 2,
           crossAxisSpacing: 18,
           mainAxisSpacing: 18,
@@ -95,10 +95,10 @@ class _IkrimsaViewState extends State<IkrimsaView> {
                         children: <Widget>[
                           Image.asset(
                             data.img,
-                            width: 42,
+                            width: 45,
                           ),
                           SizedBox(
-                            height: 14,
+                            height: 15,
                           ),
                           Text(
                             data.title,
