@@ -29,7 +29,7 @@ class _BerandaViewState extends State<BerandaView> {
           children: <Widget>[
             _autoPlayImage,
             SizedBox(
-              height: 30,
+              height: 50,
             ),
             IkrimsaView(),
           ],
