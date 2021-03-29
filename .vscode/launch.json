@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "ippsi_krims",
+            "name": "saya",
             "request": "launch",
             "type": "dart"
         }
