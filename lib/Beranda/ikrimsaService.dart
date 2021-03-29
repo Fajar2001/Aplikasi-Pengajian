@@ -51,8 +51,8 @@ class _IkrimsaViewState extends State<IkrimsaView> {
   @override
   Widget build(BuildContext context) {
     return Flexible(
-      child: GridView.count(
-          childAspectRatio: 1.80,
+      child: new GridView.count(
+          // childAspectRatio: 1.80,
           padding: EdgeInsets.only(left: 16, right: 16,),
           crossAxisCount: 2,
           crossAxisSpacing: 18,
@@ -62,7 +62,7 @@ class _IkrimsaViewState extends State<IkrimsaView> {
               decoration: BoxDecoration(
                   color: Colors.green[900],
                   borderRadius: BorderRadius.circular(10)),
-              child: Column(
+                child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   GestureDetector(
